@@ -1,0 +1,116 @@
+
+
+.hidden{
+    display:none;
+}
+
+.body-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.20;
+    z-index: 10;
+  }
+
+body {
+    color: #435757;
+    background-color: linear-gradient(-20deg, #d0b782 20%, #a0cecf 80%);
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+  }
+
+
+  .container {
+      color: black;
+    max-width: 570px;
+    top: 125px;
+    margin: 0 auto;
+    padding: 12px 25px 50px;
+    border-top: 5px solid rgba(255, 255, 255, 0.16);
+    background-color: tan;
+    user-select: none;
+    z-index: 100;
+    position: relative;
+    box-shadow: 0 10px 15px 2px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+  }
+
+  #todo-form{
+    padding: 0.75rem 0.75rem;
+    border-bottom: 1px dashed rgba(169, 167, 167, 0.34) !important;
+    border: 10px;
+    color: rgb(212, 191, 191);
+    font-size: 22px;
+    font-weight: 300;
+    text-align: left;
+    background-color: white;
+
+  }
+
+  #DeleteBtn{
+    position: absolute;
+    right: 25px;
+    display: inline;
+  }
+
+  #clock{
+    text-align: right;
+    margin : 10px;
+    font-weight: bold; 
+  }
+
+  #login-form{
+    text-align: center;
+    max-width: 550px;
+    margin: auto;  
+    padding-bottom: 10px;
+  }
+
+  #greeting{
+    text-align: center;
+    max-width: 550px;
+    margin: auto;  
+    padding-bottom: 10px;
+    font-family: Palatino Linotype;
+    color:#333333;
+    font-size: 25px;
+  }
+
+  #weather{
+    position: relative;
+    top:40px;
+    color:honeydew;
+    text-align: right;
+    margin : 10px;
+  }
+
+  #Login-btn{
+    border: 4px solid rgba(0, 0, 0, 0.411); 
+    background-color: rgba(166, 168, 31, 0.425);
+    /*color: skyblue;*/
+    padding: 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    margin-right:-2px;
+    font-family: Palatino Linotype;
+    font-size:medium
+  }
+  #Login-btn:hover{
+    color:white; background-color: skyblue;
+
+  }
+
+  #login-input{
+    font-size: 17px;
+    text-align: center;
+    height: 27px;
+    width:400px;
+    font-weight: bold;
+  }
